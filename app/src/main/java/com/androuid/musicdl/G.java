@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
 /**
  * Created by falah on 18/01/2018.
  */
-
+//Git
 public class G extends Application {
   @Override
   public void onCreate() {
