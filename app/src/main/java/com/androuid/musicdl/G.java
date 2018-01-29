@@ -3,6 +3,7 @@ package com.androuid.musicdl;
 import android.app.Application;
 import android.os.Build;
 import android.os.StrictMode;
+import android.util.Log;
 
 import com.onesignal.OneSignal;
 
@@ -25,6 +26,7 @@ public class G extends Application {
       .unsubscribeWhenNotificationsAreDisabled(true)
       .setNotificationOpenedHandler(new ExampleNotificationOpenedHandler())
       .init();
+    Log.i("","LOGGGg");
 
     if(Build.VERSION.SDK_INT>=24){
       try{
